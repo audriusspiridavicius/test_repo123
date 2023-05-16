@@ -1,0 +1,12 @@
+2023-05-16 21:41:13,765:ERROR:operations:You are trying to divide zero!!!! 1 / 0
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\new_pythonProject\lo\operations.py", line 57, in get_division
+    result = x / y
+             ~~^~~
+ZeroDivisionError: division by zero
+2023-05-16 21:41:13,767:ERROR:operations:invalid value of number. Value queals to = sfgfg
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\new_pythonProject\lo\operations.py", line 36, in get_sqrt
+    result = math.sqrt(number)
+             ^^^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
