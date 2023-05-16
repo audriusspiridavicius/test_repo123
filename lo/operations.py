@@ -14,6 +14,7 @@ file_handler = logging.FileHandler('aritmetika.log')
 logger.addHandler(file_handler)
 
 logger.setLevel(logging.ERROR)
+#logger.setLevel(logging.ERROR)
 
 formatter = logging.Formatter('%(asctime)s:%(levelname)s:%(name)s:%(message)s')
 file_handler.setFormatter(formatter)
