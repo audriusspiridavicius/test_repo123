@@ -7,7 +7,7 @@ import logging
 # formatter = logging.Formatter("%(asctime)s %(levelname)s : %(message)s")
 # console_log.setFormatter(formatter)
 # logger.addHandler(console_log)
-#
+# testing git
 
 logger = logging.getLogger(__name__)
 file_handler = logging.FileHandler('aritmetika.log')
